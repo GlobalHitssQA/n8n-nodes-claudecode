@@ -7,10 +7,10 @@ import type {
 import { NodeConnectionType, NodeOperationError } from 'n8n-workflow';
 import { query, type SDKMessage } from '@anthropic-ai/claude-agent-sdk';
 
-export class ClaudeCode implements INodeType {
+export class ClaudeAgent implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Claude Code',
-		name: 'claudeCode',
+		displayName: 'Claude Agent',
+		name: 'claudeAgent',
 		icon: 'file:claudecode.svg',
 		group: ['transform'],
 		version: 1,
